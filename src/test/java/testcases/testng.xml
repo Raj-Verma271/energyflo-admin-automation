@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+
+    <test name="Login and Blog Tests">
+        <groups>
+    <!--       <run>
+                <include name="login"/>
+                <include name="blog"/>
+            </run>  --> 
+        </groups>
+        <classes>  
+       <!--   <class name="testcases.LoginTest"/>    -->
+           <!--  <class name="testcases.AddproductTestCases"/>   -->
+           <class name="testcases.Testimonialstestcases"/>
+        </classes>
+    </test>
+</suite> <!-- Suite -->

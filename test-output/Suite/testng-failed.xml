@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="Login and Blog Tests(failed)">
+    <classes>
+      <class name="testcases.Testimonialstestcases">
+        <methods>
+          <include name="SetTestimonialsDetails" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.Testimonialstestcases -->
+    </classes>
+  </test> <!-- Login and Blog Tests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
